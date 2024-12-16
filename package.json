@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "deno run --allow-env --allow-net --allow-read --env-file=.env src/index.ts"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
